@@ -1,0 +1,13 @@
+prefix=D:/Student_performance/venv/Library
+exec_prefix=D:/Student_performance/venv/Library
+libdir=D:/Student_performance/venv/Library/lib
+sharedlibdir=D:/Student_performance/venv/Library/lib
+includedir=D:/Student_performance/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
